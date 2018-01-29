@@ -1,0 +1,16 @@
+apply origin: "java"
+
+
+sourceSets{
+	main.java.srcDir "csci2020u/lab02"
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile group: 'org.apache.commons',
+		name: 'commons-csv',
+		version: '1.2'
+}
